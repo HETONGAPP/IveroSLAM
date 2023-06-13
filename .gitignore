@@ -1,0 +1,24 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+!clang-format
+.vscode/
+*build/
+*lib/
+cmake_modules/
+cmake-build-debug/
+
+CMakeLists.txt.user
+CMakeLists_modified.txt
+
+tools/Ivero/config/*
+!tools/Ivero/config/example_config.yaml
+ivero_slam
+
+Vocabulary/ORBvoc.txt
